@@ -1,0 +1,71 @@
+**Project Name: "Personal Finance Tracker and Analyzer"**
+
+**Project Description**:
+
+Develop a MATLAB application that helps users track and analyze their personal finances. This project will cover all the key topics from MATLAB Onramp, providing practical experience in each area.
+
+### Suggested Values and Outcomes:
+
+1. **Introduction to MATLAB**:
+   - **Outcome**: Understand the MATLAB interface and create a new project for the finance tracker.
+
+2. **Variables and Expressions**:
+   - **Suggested Values**:
+     - Monthly income: \$4000
+     - Rent: \$1200
+     - Utilities: \$150
+     - Groceries: \$400
+     - Entertainment: \$200
+     - Savings: \$500
+   - **Outcome**: Store and manipulate these values to calculate totals and balances.
+
+3. **Arrays and Matrices**:
+   - **Suggested Values**:
+     - Monthly expenses over 6 months: 
+       \[
+       \begin{matrix}
+       1200 & 1250 & 1100 & 1300 & 1150 & 1200 \\
+       150 & 160 & 145 & 155 & 148 & 152 \\
+       400 & 410 & 380 & 420 & 395 & 405 \\
+       200 & 220 & 180 & 230 & 210 & 200 \\
+       500 & 550 & 600 & 450 & 500 & 520 \\
+       \end{matrix}
+       \]
+   - **Outcome**: Organize and access these values for further analysis.
+
+4. **Functions**:
+   - **Outcome**: Create a function to calculate the total monthly expenses and another to compute the savings rate (savings as a percentage of income).
+
+5. **Scripts**:
+   - **Outcome**: Write scripts to automate the input, calculation, and display of financial data.
+
+6. **Plotting Data**:
+   - **Outcome**: Generate plots such as:
+     - Pie chart of expense categories for a month.
+     - Bar graph of monthly expenses over 6 months.
+     - Line plot of income vs. expenses over 6 months.
+
+7. **Conditional Statements**:
+   - **Outcome**: Identify and alert the user about overspending if monthly expenses exceed \$3000.
+
+8. **Loops**:
+   - **Outcome**: Use loops to iterate through the monthly data to calculate total expenses and savings over the 6-month period.
+
+9. **Importing Data**:
+   - **Suggested Values**: Create a CSV file with the following data:
+     ```
+     Month,Income,Rent,Utilities,Groceries,Entertainment,Savings
+     Jan,4000,1200,150,400,200,500
+     Feb,4000,1250,160,410,220,550
+     Mar,4000,1100,145,380,180,600
+     Apr,4000,1300,155,420,230,450
+     May,4000,1150,148,395,210,500
+     Jun,4000,1200,152,405,200,520
+     ```
+   - **Outcome**: Import and analyze this data.
+
+10. **Modifying Data**:
+    - **Outcome**: Clean the data by removing any duplicates and handling missing values.
+
+11. **Logical Operations**:
+    - **Outcome**: Filter expenses to identify and list all instances where any category exceeds \$400 in a month.
